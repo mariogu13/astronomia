@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&display=swap');
+
+body{
+    margin: 0;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upperBar{
+    display: flex;
+    width: 95%;
+    height: 60px;
+    background: rgb(26, 26, 26);
+    border: 3px solid rgb(41, 36, 124);
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upperBar h1{
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+}
+
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-right: 40px;
+}
+
+li{
+    font-size: 18px;
+    padding: 15px;
+}
+
+li:hover{
+    transition: .6s;
+    background-color: rgb(41, 36, 124);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.headerImage{
+    display: flex;
+    background: linear-gradient(90deg, rgba(0, 0, 0, .95), rgba(0, 0, 0, .8) 35%, transparent 85%), url(images/headerImage.jpg);
+    width: 95%;
+    position: relative;
+    border: 3px solid rgb(41, 36, 124);
+    height: 700px;
+}
+
+.imageContent{
+    color: white;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imageContent h1{
+    font-size: 60px;
+}
+
+.imageContent p{
+    font-size: 20px;
+}
+
+main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.estrelas, .planetas, .buracosNegros{
+    display: flex;
+    background: rgba(26, 26, 26, 0.6);
+    width: 95%;
+    height: 1200px;
+    border: 3px solid rgb(41, 36, 124);
+    color: white;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.estrelas p, .planetas p, .buracosNegros p{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.estrelas h2, .planetas h2, .buracosNegros h2{
+    font-size: 40px;
+    color: rgb(158, 62, 158);
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.firstRow, .secondRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.thirdRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    background: black;
+    margin: 30px;
+    border-radius: 30px;
+    box-shadow: 6px 6px 12px rgb(75, 75, 75);
+    align-items: center;
+    justify-content: center;
+}
+
+.card p{
+    display: none;
+}
+
+.card:hover{
+    position: relative;
+    top: -15px;
+    background-color: rgb(17, 17, 17);
+    transition: .3s;
+}
+
+.card:hover h1, .card:hover img{
+    display: none;
+}
+
+.card:hover p{
+    display: block;
+}
+
+footer{
+    background: rgb(26, 26, 26);
+    height: 350px;
+    border-top: 3px solid rgb(41, 36, 124);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.listsContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.listsContainer p{
+    font-size: 20px;
+    color: rgb(158, 62, 158);
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+}
+
+footer li{
+    list-style: none;
+    display: flex;
+    width: 350px;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+}
+
+hr{
+    height: 250px;
+}
+
+.copy{
+    display: flex;
+    flex: 100%;
+}
