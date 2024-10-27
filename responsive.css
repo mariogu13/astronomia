@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px){
+    .menu{
+        display: none;
+    }
+
+    .imageContent{
+        height: auto;
+    }
+
+    .imageContent h1{
+        width: 100%;
+    }
+
+    .imageContent p{
+        width: 100%;
+    }
+
+    .estrelas, .planetas, .buracosNegros{
+        height: auto;
+    }
+
+    .firstRow, .secondRow, .thirdRow{
+        flex-direction: column;
+    }
+
+    footer{
+        height: auto;
+    }
+
+    .listsContainer{
+        flex-direction: column;
+       
+    }
+
+    .listsContainer hr{
+        display: none;
+    }
+}
